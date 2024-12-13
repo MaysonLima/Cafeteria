@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav codes*/
+
+nav{
+    background-color: darksalmon;
+    padding: 10px;
+    top: 40px;
+    left: 200px;
+}
+nav a{
+    padding: 7;
+    font-size: 23px;
+    border-radius: 5px;
+}
+#logo{
+    height: 150px;
+    position: absolute;
+    transform:translate(0px, -47px)
+}
+
+/*H1 codes*/
+
+#titulo{
+   text-align: center;
+   font-size: 45px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
