@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
+:root{
+        --cor1: #D66232;
+    --cor2: #aD4f34;
+    --cor3: #ff916d;
+    --cor4: #805146;
+    --cor5: #56403b;
+}
+
 html,body{
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     min-height: 100%;
 }
 *{
@@ -22,7 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 15px;
-    background-color: brown;
+    background-color: var(--cor4);
 }
 
 .logo{
@@ -40,7 +48,7 @@ header{
 
 
 .link li a:hover{
-    color: rgb(0, 0, 0);
+    color: black;
     
 }
 
@@ -49,18 +57,57 @@ button{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    background-color: blue;
+    background-color: var(--cor5);
     border-radius: 60px;
 }
 
 button:hover{
-    background-color: rgb(18, 18, 25);
+    background-color: var(--cor2);
 }
 
+#title{
+    padding-top: 80px;
+    font-size: 80px;
+    text-align: center;
+   
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+}
+
+section > p{
+    font-size: 35px;
+    padding-left: 10px;
+    
+
+}
+
+section.normal{
+    text-align: left;
+
+}
+
+section.imagem{
+    background-color: black;
+    color: white;
+    text-align: right;
+
+}
+
+
 footer{
-    background-color: brown;
+    background-color: var(--cor4);
+    font-size: 20px;
     color: white;
     padding: 10px;
     text-align: center;
+
+}
+
+footer a:hover{
+    color: var(--cor3);
 
 }
