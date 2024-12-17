@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
-body{
-    margin: 0px;
-    padding: 0px;
+html,body{
     box-sizing: border-box;
     background-color: black;
+    min-height: 100%;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Nav codes*/
 
 li, a, button{
@@ -53,4 +55,12 @@ button{
 
 button:hover{
     background-color: rgb(18, 18, 25);
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
 }
